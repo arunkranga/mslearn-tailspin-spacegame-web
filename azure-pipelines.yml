@@ -4,6 +4,7 @@ trigger:
 pool:
   name: 'VMSSAgentpool'
   demands:
+   - agent.name -equals MyVMSSAgent
   - npm
 
 variables:
