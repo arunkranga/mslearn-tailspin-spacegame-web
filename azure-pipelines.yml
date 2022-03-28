@@ -5,7 +5,7 @@ pool:
   name: 'VMSSAgentpool'
   demands:
    - npm
-#   - agent.name -equals MyVMSSAgent
+   - agent.name -equals MyLinuxAgent
 
 variables:
   buildConfiguration: 'Release'
